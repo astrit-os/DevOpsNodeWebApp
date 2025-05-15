@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello, dies ist die eigene Node Webapp von Astrit Osmani. ');
+  res.send('Hello FS2025 DevOps Course!');
 });
 
 app.listen(PORT, HOST);
