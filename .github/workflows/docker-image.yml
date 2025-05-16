@@ -42,4 +42,4 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
-          images: 'mosazhaw/node-web-app:${{github.sha}}'
+          images: 'aso24/node-web-app-w13:${{github.sha}}'
