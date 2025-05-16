@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hallo, dies ist ein Test -ASO   --test12 Render ist live');
+  res.send('Hallo, dies ist ein Test -ASO   W13 Cloud Deployment with GitHub Actions');
 });
 
 app.listen(PORT, HOST);
